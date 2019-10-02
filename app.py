@@ -1,5 +1,6 @@
-def say_hello(name):
-    print(f"Hi {name}")
+def double(number):
+    return 2 * number
 
-say_hello("Bob")
-say_hello("Tom")
+print(double(1)) # 2
+print(double(2)) # 4
+print(double(3)) # 6
