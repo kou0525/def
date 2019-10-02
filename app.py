@@ -1,6 +1,6 @@
-def double(number):
-    return 2 * number
+# call_warikan.py
+from warikan import warikan
 
-print(double(1)) # 2
-print(double(2)) # 4
-print(double(3)) # 6
+print(warikan(1500,3))
+print(warikan(2000,3))
+print(warikan(3000,4))
